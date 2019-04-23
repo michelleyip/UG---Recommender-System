@@ -42,7 +42,8 @@ This dataset is not located in this repository, please download it from the foll
 https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe/activity
 
 <H2>CSV Files</H2>
-The following csv files can be found in the zip file: <b>Hotel_intermediate_datasets.zip</b><br/>
+The following csv files can be found in the zip file: <b>Hotel_intermediate_datasets.zip</b>
+<br/><br/>
 
 <b>initial_filter.csv:</b>
 The filtered dataset, it is created by running initial_filter.py
