@@ -42,14 +42,16 @@ This program allows comparison between two ranked lists and returns the kendall 
 Requires: two lists of predicted rankings (must be edited in the code)
 
 <H2>CSV Files</H2>
-The following csv files can be found in the zip file: <b>test_datasets.zip</b>
-<br/><br/>
+Sample test data:
 
-<b>1_filter_train.csv:</b>
+<b>1_filter_train.csv.zip:</b>
 Sample training set (70% of data)
 
-<b>1_filter_test.csv:</b>
+<b>1_filter_test.csv.zip:</b>
 Sample testing set (30% of data)
+
+<H2>References</H2>
+1. https://github.com/KevinLiao159/MyDataSciencePortfolio/blob/master/movie_recommender/movie_recommendation_using_KNN.ipynb
 
 
 
