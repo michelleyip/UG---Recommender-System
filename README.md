@@ -1,7 +1,7 @@
 # UG---Recommender-System
 UG project - READ ME FILE
 
-Files:
+<H2>Code files </H2>
 
 <b>initial_filter.py:</b>
 This is run first - it is the data pre-processing stage and is run on the original dataset taken from Kaggle. 
@@ -22,21 +22,27 @@ Requires: inital_filter.csv
 
 <b>train_test.py:</b>
 This program takes one train and test dataset to run the collaborative filtering test and returns the precision, recall, f1, mae and rmse results for that particular set of data
+Must be run as a python file through terminal (only used for testing)
 Requires: train and test dataset: 1_filter_test.csv and 1_filter_train.csv
 
 <b>avg_train_test.py:</b>
 This program splits the dataset into into train and test 10 times and averages these results. Results will be different every time because the split is random for every run. (Is train_test.py, but run 10 times and averaged to return results)
 Note: Due to the nature of this program, it does not support validation issues and will need to be re-run after every query
+Must be run as a python file through terminal (only used for testing)
 Requires: inital_filter.csv
 
 <b>rank.py:</b>
 This program allows comparison between two ranked lists and returns the kendall tau and spearman's rho values.
 Requires: two lists of predicted rankings (must be edited in the code)
 
+<H2>Online data</H2>
 <b>Hotel_Reviews.csv:</b>
 The original dataset downloaded from Kaggle. Acknowledgement: Data was scraped from Booking.com, all data is originally owned by Booking.com
 This dataset is not located in this repository, please download it from the following link:
 https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe/activity
+
+<H2>CSV Files</H2>
+The following csv files can be found in the zip file: <b>Hotel_intermediate_datasets.zip</b><br/>
 
 <b>initial_filter.csv:</b>
 The filtered dataset, it is created by running initial_filter.py
