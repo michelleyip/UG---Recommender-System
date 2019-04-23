@@ -31,7 +31,7 @@ Requires: inital_filter.csv
 
 <b>rank.py:</b>
 This program allows comparison between two ranked lists and returns the kendall tau and spearman's rho values.
-Requires: two lists of predicted rankings
+Requires: two lists of predicted rankings (must be edited in the code)
 
 <b>Hotel_Reviews.csv:</b>
 The original dataset downloaded from Kaggle. Acknowledgement: Data was scraped from Booking.com, all data is originally owned by Booking.com
