@@ -1,5 +1,5 @@
 # UG-Recommender-System
-<H1>Exploring the Effect of Rating and Reviews on Hotel Rankings to Create a Functioning Recommendation System</H1>
+<H2>Exploring the Effect of Rating and Reviews on Hotel Rankings to Create a Functioning Recommendation System</H2>
 UG project - READ ME FILE
 
 <H2>Dataset</H2>
