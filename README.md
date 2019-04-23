@@ -1,10 +1,16 @@
 # UG---Recommender-System
 UG project - READ ME FILE
 
+<H2>Dataset</H2>
+<b>Hotel_Reviews.csv:</b>
+Acknowledgement: Data was scraped from Booking.com, all data is originally owned by Booking.com
+The hotel dataset is available from the following link:
+https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe/activity
+
 <H2>Code files </H2>
 
 <b>initial_filter.py:</b>
-This is run first - it is the data pre-processing stage and is run on the original dataset taken from Kaggle. 
+Run this code first on the original Hote_Reviews.csv file to return the initial_filter.csv file necessary for the main program to run. It data pre-processes the dataset before recommendations can begin.
 Requires: Hotel_Reviews.csv
 Produces: initial_filter.csv
 
@@ -35,18 +41,9 @@ Requires: inital_filter.csv
 This program allows comparison between two ranked lists and returns the kendall tau and spearman's rho values.
 Requires: two lists of predicted rankings (must be edited in the code)
 
-<H2>Online data</H2>
-<b>Hotel_Reviews.csv:</b>
-The original dataset downloaded from Kaggle. Acknowledgement: Data was scraped from Booking.com, all data is originally owned by Booking.com
-This dataset is not located in this repository, please download it from the following link:
-https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe/activity
-
 <H2>CSV Files</H2>
-The following csv files can be found in the zip file: <b>Hotel_intermediate_datasets.zip</b>
+The following csv files can be found in the zip file: <b>test_datasets.zip</b>
 <br/><br/>
-
-<b>initial_filter.csv:</b>
-The filtered dataset, it is created by running initial_filter.py
 
 <b>1_filter_train.csv:</b>
 Sample training set (70% of data)
