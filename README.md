@@ -9,21 +9,32 @@ The hotel dataset is available from the following link:
 https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe/activity
 
 <H2>Prerequisites</H2>
+To install the numPy library:
+<br/>
+pip install numpy
+
+To install the pandas library:
+pip install pandas
 
 <H2>Code files </H2>
 
 <b>data_preprocess.py:</b>
 Run this code first on the original Hote_Reviews.csv file to return the initial_filter.csv file necessary for the main program to run. It data pre-processes the dataset before recommendations can begin.
+<br/>
 Requires: Hotel_Reviews.csv
+<br/>
 Produces: initial_filter.csv
 
 <b>dataset_longtail.py:</b>
 This program is used to visualise the rating frequency by hotels and by users. The code has been altered from the original code by KevinLiao159 on github
+<br/>
 Requires: inital_filter.csv
 
 <b>recommender_system.command:</b>
 This program contains the algorithm for the best quality algorithm. It allows users to select their id and choose options for their hotel search.
+<br/>
 Note: If computer does not use Python 2.7, change the import library of pySimpleGUI27 to pySimpleGUI
+<br/>
 Make sure the place the inital_filter.csv in the correct folder (The correct filepath is printed when the program is executed)
 1. Run program
 2. Select options (enter inputs)
@@ -32,19 +43,28 @@ Requires: inital_filter.csv
 
 <b>train_test.py:</b>
 This program takes one train and test dataset to run the collaborative filtering test and returns the precision, recall, f1, mae and rmse results for that particular set of data
+<br/>
 Must be run as a python file through terminal (only used for testing)
+<br/>
 Note: If computer does not use Python 2.7, change the import library of pySimpleGUI27 to pySimpleGUI
+<br/>
 Requires: train and test dataset: 1_filter_test.csv and 1_filter_train.csv
 
 <b>avg_train_test.py:</b>
 This program splits the dataset into into train and test 10 times and averages these results. Results will be different every time because the split is random for every run. (Is train_test.py, but run 10 times and averaged to return results)
+<br/>
+Must be run as a python file through terminal (only used for testing)
+<br/>
 Note: Due to the nature of this program, it does not support validation issues and will need to be re-run after every query
 Must be run as a python file through terminal (only used for testing) every run should take around 20minutes to complete
+<br/>
 Note: If computer does not use Python 2.7, change the import library of pySimpleGUI27 to pySimpleGUI
+<br/>
 Requires: inital_filter.csv
 
 <b>rank.py:</b>
 This program allows comparison between two ranked lists and returns the kendall tau and spearman's rho values.
+<br/>
 Requires: two lists of predicted rankings (must be edited in the code)
 
 <H2>CSV Files</H2>
