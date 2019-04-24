@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("initial_filter_step1.csv", na_values = ['no info', '.'], low_memory=False)
+df = pd.read_csv("initial_filter.csv", na_values = ['no info', '.'], low_memory=False)
 
 n_users = df.id.unique().shape[0]
 n_items = df.Hotel_Address.unique().shape[0]
