@@ -9,12 +9,14 @@ The hotel dataset is available from the following link:
 https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe/activity
 
 <H2>Prerequisites</H2>
-To install the numPy library:
-<br/>
-pip install numpy
+To install the NumPy library:
+<pre>pip install numpy</pre>
 
-To install the pandas library:
-pip install pandas
+To install the Pandas library:
+<pre>pip install pandas</pre>
+
+To install the pySimpleGUI library:
+<pre>pip install pySimpleGUI</pre>
 
 <H2>Code files </H2>
 
